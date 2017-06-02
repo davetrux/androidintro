@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <Button
+        android:id="@+id/bang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/quote_bang"/>
+    <Button
+        android:id="@+id/friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/bang"
+        android:layout_toRightOf="@id/bang"
+        android:layout_marginLeft="50dp"
+        android:text="@string/quote_friends"/>
+    <Button
+        android:id="@+id/mother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bang"
+        android:layout_below="@id/bang"
+        android:layout_marginTop="50dp"
+        android:text="@string/quote_mother"/>
+    <Button
+        android:id="@+id/seinfeld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@id/bang"
+        android:layout_below="@id/bang"
+        android:layout_marginTop="50dp"
+        android:text="@string/quote_seinfeld"/>
+
+</RelativeLayout>

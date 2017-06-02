@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Catch Phrases</string>
+    <string name="quote_bang">Bazinga!</string>
+    <string name="quote_seinfeld">Hello Neuman</string>
+    <string name="quote_friends">How you Doin?</string>
+    <string name="quote_mother">Suit Up!</string>
+</resources>
