@@ -36,10 +36,12 @@
 13. Finish (Wait)
 14. Expand the Res Folder in the Project View, then expand the values folder
 15. Add the following XML snippet:
+
         <string name="quote_bang">Bazinga!</string>
         <string name="quote_seinfeld">Hello Neuman</string>
         <string name="quote_friends">How you Doin?</string>
         <string name="quote_mother">Suit Up!</string>
+        
 16. Expand the Res Folder in the Project View, then expand the layouts folder
 17. Open activity_main.xml
 18. Change "android.support.constraint.ConstraintLayout" to "RelativeLayout"
