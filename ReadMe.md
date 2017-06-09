@@ -80,6 +80,7 @@
             android:layout_toRightOf="@id/bang"
             android:layout_below="@id/bang"
             android:layout_marginTop="50dp"
+            android:text="@string/quote_seinfeld"/>
 
 22. Right-Click the com.ladev.catchphrase package in the Project pane
 23. Add a new Empty Activity
